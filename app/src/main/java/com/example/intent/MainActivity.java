@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void setSearch (View v) {
+        
         Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
         String searchFor = search.getText().toString();
         intent.putExtra(SearchManager.QUERY , searchFor );
